@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="utf-8">
-    <title>DigiDex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
   </head>
   <body>
-    <h1>Digimon Pokedex! WOAH! COOL!</h1>
-    <h3>Search me daddy</h3> <button type="button" name="button" id="btn">Search</button>
-    <input type="text" placeholder="Search..">
+    <div class="container">
+      <div class="header">
+        <h1>BeCode Pokédex</h1>
+        <h3>Find your favorite Pokémon!</h3> <button type="button" name="button" id="btn">Search!</button>
+        <input id="SearchName" type="text" placeholder="Search..">
+      </div>
+      <div class="pokedex">
+        <h2 id="pknname" class="poketext"></h2>
+        <p id="pknid" class="poketext"></p>
+        <img src="#" alt="" id="pknimg">
+        <h3 class="poketext">Abilities / Move set</h3>
+        <p id="move1" class="poketext"></p>
+        <p id="move2" class="poketext"></p>
+        <p id="move3" class="poketext"></p>
+        <p id="move4" class="poketext"></p>
 
-    <H3>Your big bitchin' Pokedude is:</H3>
-    <h2 id="pknname"></h2>
-    <p id="pknid">ID PLACEHOLDER</p>
-    <img src="http://unsplash.it/300/" alt="" id="pknimg">
-    <h3>Moves used to smack the shit out of your friends:</h3>
-    <p id="move1">PLACEHOLDER MOVE</p>
-    <p id="move2">PLACEHOLDER MOVE</p>
-    <p id="move3">PLACEHOLDER MOVE</p>
-    <p id="move4">PLACEHOLDER MOVE</p>
+        <h3 class="poketext"><a href="#">What did it Evolve from?</a></h3>
+      </div>
+    </div>
 
-    <script src="script.js" charset="utf-8"></script>
+  <script src="assets/js/script.js" charset="utf-8"></script>
   </body>
 </html>

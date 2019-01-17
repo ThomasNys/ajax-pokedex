@@ -1,0 +1,83 @@
+/* ####################### */
+/* ### Generic styling ### */
+/* ####################### */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #F2684A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  color: #FAAA6D;
+}
+
+/* ########################## */
+/* ### Search bar styling ### */
+/* ########################## */
+
+input[type=text] {
+  width: 50%;
+  padding: 15px 20px;
+}
+
+button {
+  background-color: #FAAA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* ####################### */
+/* ### Pokedex styling ### */
+/* ####################### */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+
+.pokedex {
+  text-transform: capitalize;
+  border-color: #b0b0b0;
+  border-style: solid;
+  border-width: 0.5em;
+  background-color: #FFEEB0;
+  margin-top: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.poketext {
+  color: #419EAE;
+}
+
+/* Pokemon Preview */
+img {
+  border-color: #419EAE;
+  border-style: solid;
+  border-width: 2px;
+  width: 70%;
+  background-color: #f2f2f2;
+}
+
+/* Links */
+a:hover {
+  color: #419EAE;
+}
+a:visited {
+  color: #F2684A;
+}
+a:link {
+  color: #F2684A;
