@@ -12,11 +12,13 @@ document.getElementById("btn").addEventListener("click", getPoke);
 function getPoke(){
     //Searchvalue to xhr
     PknSearch=document.getElementById("SearchName").value.toLowerCase();
+    if(PknSearch=="ross geller"){
+    document.location.replace("http://images4.fanpop.com/image/photos/16300000/David-S0chwimmer-Ross-Geller-ross-geller-16348282-2115-2560.jpg")
+  }
     var xhr = new XMLHttpRequest();
     var xhr2 = new XMLHttpRequest();
     var xhr3 = new XMLHttpRequest();
 
-    // xhr.open('GET', 'https://pokeapi.co/api/v2/pokemon/'+SearchName+"/, true);
     xhr.open('GET', 'https://pokeapi.co/api/v2/pokemon/'+PknSearch+'/', true);
     xhr2.open('GET', 'https://pokeapi.co/api/v2/pokemon-species/'+PknSearch+'/', true);
     console.log(xhr2);
