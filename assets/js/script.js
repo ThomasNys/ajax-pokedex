@@ -37,8 +37,7 @@ function getPoke(){
                 }
             }else{
             document.getElementById('prevo').innerHTML="No pre-evolution";
-
-            document.getElementById('pknimg2').src="https://imgc.allpostersimages.com/img/Lamination/posters/pokemon-eevee-evolution_a-G-14816840-0.jpg";
+            document.getElementById('pknimg2').src="assets/img/noprevo.jpg";
 }
         }
     };
