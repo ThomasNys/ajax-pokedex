@@ -1,3 +1,3 @@
 # ajax-pokedex
-Group project with Thomas and me.
-https://jessicaheinze.github.io/ajax-pokedex/
+Group project with Jessica and me.
+https://ThomadNys.github.io/ajax-pokedex/
